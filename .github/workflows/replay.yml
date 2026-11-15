@@ -1,0 +1,44 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+jobs:
+  replay:
+    name: Certificate and checks, normal and python -O (blocking; about three minutes)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Check MANIFEST.sha256
+        run: sha256sum -c MANIFEST.sha256
+      - name: Run the certificate and the checks, normal and optimized, outside the package
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          UVR="uv run --no-project --python 3.12 --with numpy==2.3.5 --with scipy==1.17.0 --with sympy==1.14.0 --with mpmath==1.3.0"
+          cd "$RUNNER_TEMP"
+          for mode in normal optimized; do
+            O=""; [ "$mode" = optimized ] && O="-O"
+            for s in certify_rank_gap verify_schatten; do
+              out="$RUNNER_TEMP/out-$mode-$s"; mkdir -p "$out"
+              $UVR python3 -I -B $O "$GITHUB_WORKSPACE/verification/$s.py" --out "$out" > "$out.log" 2>&1 || { tail -40 "$out.log"; echo "$s failed ($mode)"; exit 1; }
+              grep -q 'STATUS PASS\|"status": "PASS"' "$out.log" "$out"/*.json || { echo "$s did not report PASS ($mode)"; exit 1; }
+              echo "$s $mode PASS"
+            done
+          done
+      - name: Certificate must reject a relabelled witness (negative control)
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          d="$RUNNER_TEMP/negctl"; mkdir -p "$d/out"; cp -R verification "$d/verification"
+          uv run --no-project --python 3.12 python3 -I -B -c 'import json,sys; p=sys.argv[1]; d=json.load(open(p)); w=[x for x in d["witnesses"] if x["p"]=="17/10"][0]; w["p"]="9/5"; d["witnesses"]=[w]; json.dump(d,open(p,"w"))' "$d/verification/witnesses.json"
+          cd "$RUNNER_TEMP"
+          if uv run --no-project --python 3.12 --with numpy==2.3.5 --with scipy==1.17.0 --with sympy==1.14.0 --with mpmath==1.3.0 python3 -I -B -O "$d/verification/certify_rank_gap.py" --out "$d/out"; then echo "negative control unexpectedly passed"; exit 1; else echo "negative control failed as expected"; fi
+      - name: Byte comparison with verification/output (certificate exact; checks informative on Linux)
+        run: |
+          cmp "$RUNNER_TEMP/out-normal-certify_rank_gap/rank_gap_certificate.json" verification/output/rank_gap_certificate.json && echo "identical rank_gap_certificate.json"
+          cmp -s "$RUNNER_TEMP/out-normal-verify_schatten/verification.json" verification/output/verification.json && echo "identical verification.json" || echo "verification.json differs in floating-point last digits (informative)"
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"

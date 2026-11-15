@@ -1,0 +1,195 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 15 November 2026 for 0.1.0-candidate from the dated searches of the internal AI-assisted review (14-15 November 2026; concurrent-work window June to 15 November 2026), the reference records in refs.bib (Crossref and arXiv records retrieved 15 November 2026), REVIEW_SUMMARY.md and the paper's own positioning (Section 1, Table 1). It records scrutiny performed, not historical priority.",
+ "contributionMap": [
+  {
+   "claim": "Theorem 2.1 and Corollary 2.2: for 1<p<2, ||sum A_k||_p <= D_{p,rank B} ||B||_p; c_p(m,n) = D_{p,n} for m >= n, strict for m < n; rank-one constant D_{p,min(m,n)} in every dimension",
+   "unit": "statement",
+   "paperLocation": "Sections 2-5",
+   "searches": [
+    {
+     "date": "2026-11-14",
+     "corpus": "arXiv API, Semantic Scholar citation lists of Tang-Zhang, Pang, Qiu, Zeng-Liu-Ratnavelu and Li, Crossref, publisher pages, general web search; Evidence Press release corpus (site feed)",
+     "query": "Lee conjecture sum of absolute values of matrices Schatten p-norm; Tang-Zhang conjecture 1<p<2 counterexample; c_p^abs(m,n) fixed dimension; Renyi entropy joint range matrix modulus; sharp constant sum of moduli Schatten"
+    }
+   ],
+   "closestPriorWork": "T. Zhang 2026 (J. London Math. Soc.; p = 2 case, Theorem 6.2, and the bound min(m,n)^{(p-1)/(2p)}); Pang 2026 (two-Gram family); Zeng-Liu-Ratnavelu (p = 3/2, two rank-one matrices); Qiu 2026 (p >= 2)",
+   "verdict": "partially-known-cited",
+   "verdictNote": "method extends Zhang's p = 2 proof and the extremal family is Pang's; the exact constant for 1<p<2, its range m >= n, the equality classification and the strictness for m < n are new within a bounded search"
+  },
+  {
+   "claim": "Theorem 2.3 and Corollary 2.4: log-convexity of c_p(m,n) and c_p(m) in 1/p; c_p(m) <= ((1+sqrt m)/2)^{1-1/p}, improving m^{(p-1)/(2p)} for every m >= 2",
+   "unit": "statement",
+   "paperLocation": "Section 7",
+   "searches": [
+    {
+     "date": "2026-11-15",
+     "corpus": "as above, re-run during the revision audit",
+     "query": "log-convexity of Schatten constants in 1/p; complex interpolation triangle inequality matrix modulus; Stein interpolation Lee problem"
+    }
+   ],
+   "closestPriorWork": "Tang-Zhang 2026 (bound m^{(p-1)/(2p)}); Bourin-Zhang survey 2026 (records that bound); Qiu (complex interpolation for a different auxiliary inequality); Li (weighted Schatten interpolation, Lemma 2.5); Stein 1956",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "interpolation antecedents cited; no earlier statement of this log-convexity or bound found"
+  },
+  {
+   "claim": "Proposition 2.5: certified c_p(2,3) > D_{p,2} at nine exponents 11/10..17/10 (computer-assisted, exact rational and interval arithmetic)",
+   "unit": "statement",
+   "paperLocation": "Section 8",
+   "searches": [
+    {
+     "date": "2026-11-14",
+     "corpus": "as above",
+     "query": "rank-one extremiser Schatten norm sum of moduli; higher-rank counterexample Lee problem; Qiu numerical example p=6/5"
+    }
+   ],
+   "closestPriorWork": "Qiu 2026, Section 5 (a single numerical example at p = 6/5)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "extends Qiu's numerical example to a certified statement at nine exponents"
+  },
+  {
+   "claim": "Method: Hoelder factorisation with exponent pair (2,2q) reducing the problem to two Renyi entropies on the simplex",
+   "unit": "method",
+   "paperLocation": "Sections 3-4",
+   "searches": [
+    {
+     "date": "2026-11-14",
+     "corpus": "arXiv API, Semantic Scholar citation lists of Tang-Zhang, Pang, Qiu, Zeng-Liu-Ratnavelu and Li, Crossref, publisher pages, general web search; Evidence Press release corpus (site feed)",
+     "query": "Lee conjecture sum of absolute values of matrices Schatten p-norm; Tang-Zhang conjecture 1<p<2 counterexample; c_p^abs(m,n) fixed dimension; Renyi entropy joint range matrix modulus; sharp constant sum of moduli Schatten"
+    }
+   ],
+   "closestPriorWork": "Zhang Theorem 6.2 (pair (2,infinity) at p = 2); Zeng-Liu-Ratnavelu Lemma 3.1 (p = 3/2, rank one); Harremoes 2009 and Sakai-Iwata (joint range of Renyi entropies)",
+   "verdict": "partially-known-cited",
+   "verdictNote": "extension of known techniques; credited in the paper"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Zhang, T. (2026), Operator symmetric moduli and sharp triangle inequalities, J. London Math. Soc. (arXiv:2603.01046 v1)",
+   "usedFor": "p = 2 proof (Theorem 6.2, Lemma 6.1), fixed-dimension constant (Problem 1.14), bound min(m,n)^{(p-1)/(2p)}",
+   "readWhat": "Sections 1 and 6",
+   "date": "2026-11-14",
+   "evidenceLocator": "https://doi.org/10.1112/jlms.70672"
+  },
+  {
+   "citation": "Pang, Z. (2026), Counterexamples to a conjectured Schatten norm inequality, arXiv:2608.18112v1",
+   "usedFor": "two-Gram extremal family",
+   "readWhat": "whole paper",
+   "date": "2026-11-14",
+   "evidenceLocator": "https://arxiv.org/abs/2608.18112v1"
+  },
+  {
+   "citation": "Qiu, H. (2026), Sharp quasi-reverse Minkowski inequality for Schatten norms, arXiv:2608.17565v2",
+   "usedFor": "p >= 2 result, Question 5.1, numerical example at p = 6/5, interpolation antecedent",
+   "readWhat": "whole paper",
+   "date": "2026-11-14",
+   "evidenceLocator": "https://arxiv.org/abs/2608.17565v2"
+  },
+  {
+   "citation": "Zeng, Liu and Ratnavelu (2026), arXiv:2608.15558 and manuscripts SM1-P01, SM1-P02",
+   "usedFor": "counterexamples below p = 2; exact p = 3/2 two-rank-one value and Lemma 3.1 factorisation",
+   "readWhat": "whole papers",
+   "date": "2026-11-14",
+   "evidenceLocator": "https://arxiv.org/abs/2608.15558"
+  },
+  {
+   "citation": "Tang, Q. and Zhang, S. (2026), Generalizing Lee's conjecture on the sum of absolute values of matrices, Linear Algebra Appl. 731",
+   "usedFor": "m-summand problem, c_2(m), bound m^{(p-1)/(2p)}, conjectured formula",
+   "readWhat": "whole paper",
+   "date": "2026-11-14",
+   "evidenceLocator": "https://doi.org/10.1016/j.laa.2025.11.015"
+  },
+  {
+   "citation": "Bourin, J.-C. and Zhang, T. (2026), Matrix triangle inequalities: past, present, and future, Rev. Math. Phys. (arXiv:2610.30538)",
+   "usedFor": "status of the problem (Problem 5.9 open)",
+   "readWhat": "Section 5",
+   "date": "2026-11-14",
+   "evidenceLocator": "https://doi.org/10.1142/s0129055x26500236"
+  },
+  {
+   "citation": "Li, X. (2026), Sharp concave-function transfer for Lee-type Schatten norm inequalities, arXiv:2608.25989v1",
+   "usedFor": "transfer theorem (Section 9), Problem 4.2, interpolation Lemma 2.5",
+   "readWhat": "whole paper",
+   "date": "2026-11-14",
+   "evidenceLocator": "https://arxiv.org/abs/2608.25989v1"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Exact dimension-free constant c_p(m), including Lee's m = 2 problem, open for 1<p<2",
+   "closingQuestion": "Is c_p(2) attained in some fixed dimension, and what is it?",
+   "triedOrSearched": "rank-one solved; certified higher-rank witnesses; interpolation bracket",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "the factorisation sees only the spectrum of sum |A_k|",
+   "whyNotClosedNow": "open problem 1"
+  },
+  {
+   "limitation": "c_p(m,n) for m < n",
+   "closingQuestion": "Determine c_p(m,n) for m < n",
+   "triedOrSearched": "strictness proved; bracket by D_{p,m}, certified witnesses and the interpolation bound",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "needs information on how B is split",
+   "whyNotClosedNow": "open problem 3"
+  },
+  {
+   "limitation": "Interpolation bound not sharp",
+   "closingQuestion": "Can the bracket D_{p,m} <= c_p(m) <= ((1+sqrt m)/2)^{1-1/p} be narrowed?",
+   "triedOrSearched": "chained interpolation checked numerically",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "no sharper method found",
+   "whyNotClosedNow": "open problem 2"
+  },
+  {
+   "limitation": "Rank gap certified at nine exponents only, and tiny",
+   "closingQuestion": "Does c_p(2) > D_{p,2} hold for all 1<p<2, or is there a threshold p* < 2?",
+   "triedOrSearched": "local perturbation (heuristic criterion only); numerics: about 8e-10 at p = 1.8, none at 1.9",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "no proof for an interval",
+   "whyNotClosedNow": "open problem 3 and Section 8"
+  },
+  {
+   "limitation": "Computer-assisted proof trusts software",
+   "closingQuestion": "Are the nine certificates valid?",
+   "triedOrSearched": "exact rational arithmetic, sympy root isolation, mpmath intervals; independent 50-digit recomputation and interval-layer tests in the proof audit; negative control fails",
+   "estimatedCost": "under one hour",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Priority rests on a bounded search",
+   "closingQuestion": "Would indexed databases change attribution?",
+   "triedOrSearched": "arXiv, Semantic Scholar citation lists, Crossref, publisher and web searches",
+   "estimatedCost": "subscription indexes",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "MathSciNet and zbMATH not used",
+   "whyNotClosedNow": "recorded here"
+  }
+ ],
+ "extensionScout": {
+  "by": "five internal reviewer agents and an adversarial review by a second AI model",
+  "date": "2026-11-14",
+  "proposals": [
+   "interpolation in the exponent to improve the general bound",
+   "certify that rank-one families are not extremal for Lee's problem",
+   "prove the rank gap for every 1<p<2",
+   "exact c_p(m,n) for m<n and exact c_p(m)"
+  ],
+  "actions": [
+   "proved (Theorem 2.3, Corollary 2.4)",
+   "proved by computer-assisted proof at nine exponents (Proposition 2.5)",
+   "attempted; heuristic criterion only; open",
+   "not attempted; open problems"
+  ]
+ }
+}

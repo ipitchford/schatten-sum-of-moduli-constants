@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "p": "11/10",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.002012486589874",
+      "D_p2_upper": "1.001997011509515",
+      "certified_gap_lower": "0.0000154750",
+      "D_p3_lower": "1.003464303674414",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    },
+    {
+      "p": "6/5",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.007357637563956",
+      "D_p2_upper": "1.007324965767877",
+      "certified_gap_lower": "0.0000326717",
+      "D_p3_lower": "1.012710900700443",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    },
+    {
+      "p": "5/4",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.011023115017350",
+      "D_p2_upper": "1.010987534452422",
+      "certified_gap_lower": "0.0000355805",
+      "D_p3_lower": "1.019068190533277",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    },
+    {
+      "p": "13/10",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.015244511559630",
+      "D_p2_upper": "1.015210077553148",
+      "certified_gap_lower": "0.0000344340",
+      "D_p3_lower": "1.026395914270540",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    },
+    {
+      "p": "4/3",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.018334201415565",
+      "D_p2_upper": "1.018302375430669",
+      "certified_gap_lower": "0.0000318259",
+      "D_p3_lower": "1.031759859799219",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    },
+    {
+      "p": "7/5",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.025092913679266",
+      "D_p2_upper": "1.025069070682902",
+      "certified_gap_lower": "0.0000238429",
+      "D_p3_lower": "1.043485576940627",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    },
+    {
+      "p": "3/2",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.036425091174377",
+      "D_p2_upper": "1.036414357333408",
+      "certified_gap_lower": "0.0000107338",
+      "D_p3_lower": "1.063086305441067",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    },
+    {
+      "p": "8/5",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.048783502168143",
+      "D_p2_upper": "1.048780903532703",
+      "certified_gap_lower": "0.0000025986",
+      "D_p3_lower": "1.084323404827673",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    },
+    {
+      "p": "17/10",
+      "exact_orthogonality_and_symmetry": true,
+      "ratio_lower": "1.061667909089498",
+      "D_p2_upper": "1.061667712713788",
+      "certified_gap_lower": "0.0000001963",
+      "D_p3_lower": "1.106269713906273",
+      "certified_c_p23_gt_D_p2": true,
+      "control_below_D_p3": true,
+      "status": "PASS",
+      "rounding": "lower bounds rounded down, upper bounds rounded up (decimal strings)"
+    }
+  ]
+}

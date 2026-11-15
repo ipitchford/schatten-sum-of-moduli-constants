@@ -1,0 +1,980 @@
+{
+  "seed": 20261112,
+  "scalar_table": {
+    "1.1,2": {
+      "x": 8.793034404290756,
+      "D": 1.0019970115095147
+    },
+    "1.1,3": {
+      "x": 11.081561935965889,
+      "D": 1.0034643036744146
+    },
+    "1.1,4": {
+      "x": 13.167329313271544,
+      "D": 1.0046550644349046
+    },
+    "1.1,5": {
+      "x": 15.12041222082372,
+      "D": 1.0056698793427012
+    },
+    "1.1,6": {
+      "x": 16.977253956341453,
+      "D": 1.006560781609342
+    },
+    "1.1,7": {
+      "x": 18.759789063874884,
+      "D": 1.0073587410858222
+    },
+    "1.1,8": {
+      "x": 20.482485360621993,
+      "D": 1.0080839071333012
+    },
+    "1.1,9": {
+      "x": 22.155508306034456,
+      "D": 1.0087502287981145
+    },
+    "1.1,10": {
+      "x": 23.786339664942936,
+      "D": 1.0093678169759324
+    },
+    "1.2,2": {
+      "x": 7.1904945719572435,
+      "D": 1.0073249657678762
+    },
+    "1.2,3": {
+      "x": 8.870642174447266,
+      "D": 1.0127109007004436
+    },
+    "1.2,4": {
+      "x": 10.374089025594307,
+      "D": 1.0170842631700328
+    },
+    "1.2,5": {
+      "x": 11.762098365083212,
+      "D": 1.0208131839488805
+    },
+    "1.2,6": {
+      "x": 13.066502659969299,
+      "D": 1.0240881321769766
+    },
+    "1.2,7": {
+      "x": 14.306446652642459,
+      "D": 1.027022492749387
+    },
+    "1.2,8": {
+      "x": 15.494549123586095,
+      "D": 1.0296900467231496
+    },
+    "1.2,9": {
+      "x": 16.639670420480563,
+      "D": 1.0321418788942849
+    },
+    "1.2,10": {
+      "x": 17.748327557488373,
+      "D": 1.0344150229453974
+    },
+    "1.5,2": {
+      "x": 4.33064006431219,
+      "D": 1.0364143573334077
+    },
+    "1.5,3": {
+      "x": 5.075830135479202,
+      "D": 1.0630863054410675
+    },
+    "1.5,4": {
+      "x": 5.716409655009999,
+      "D": 1.0846900169784344
+    },
+    "1.5,5": {
+      "x": 6.290007353201641,
+      "D": 1.1030774834887587
+    },
+    "1.5,6": {
+      "x": 6.815877675859739,
+      "D": 1.1192046471423764
+    },
+    "1.5,7": {
+      "x": 7.30545477144956,
+      "D": 1.1336394144910593
+    },
+    "1.5,8": {
+      "x": 7.766193181400426,
+      "D": 1.1467506694779153
+    },
+    "1.5,9": {
+      "x": 8.203276734539857,
+      "D": 1.1587934150739991
+    },
+    "1.5,10": {
+      "x": 8.620485196349849,
+      "D": 1.1699522499800745
+    },
+    "1.8,2": {
+      "x": 2.9004144695706544,
+      "D": 1.0745288797384525
+    },
+    "1.8,3": {
+      "x": 3.30820624313659,
+      "D": 1.1280036998895677
+    },
+    "1.8,4": {
+      "x": 3.6552263773936553,
+      "D": 1.170850353836969
+    },
+    "1.8,5": {
+      "x": 3.963259863152014,
+      "D": 1.2070774782976845
+    },
+    "1.8,6": {
+      "x": 4.243495437213856,
+      "D": 1.238712966232374
+    },
+    "1.8,7": {
+      "x": 4.5025942388068625,
+      "D": 1.266943774133342
+    },
+    "1.8,8": {
+      "x": 4.744906362363297,
+      "D": 1.2925320268457572
+    },
+    "1.8,9": {
+      "x": 4.973460172097885,
+      "D": 1.3159996872500206
+    },
+    "1.8,10": {
+      "x": 5.190465303652629,
+      "D": 1.3377217185013257
+    },
+    "1.95,2": {
+      "x": 2.5112054771745695,
+      "D": 1.0928831735004516
+    },
+    "1.95,3": {
+      "x": 2.847523547718055,
+      "D": 1.158965714057038
+    },
+    "1.95,4": {
+      "x": 3.1316950218998985,
+      "D": 1.211764395480315
+    },
+    "1.95,5": {
+      "x": 3.3825018498251804,
+      "D": 1.2563592734067517
+    },
+    "1.95,6": {
+      "x": 3.6095851481477643,
+      "D": 1.2952909678143127
+    },
+    "1.95,7": {
+      "x": 3.818676427462145,
+      "D": 1.330036152289998
+    },
+    "1.95,8": {
+      "x": 4.0135125006277095,
+      "D": 1.361538510069732
+    },
+    "1.95,9": {
+      "x": 4.196690473036828,
+      "D": 1.3904421777882263
+    },
+    "1.95,10": {
+      "x": 4.370102282326618,
+      "D": 1.4172087315283264
+    }
+  },
+  "max_extremiser_abs_error": 4.440892098500626e-16,
+  "random_trials": 900,
+  "max_random_ratio_to_bound": 0.9927282991916201,
+  "adversarial": [
+    {
+      "p": 1.5,
+      "n": 2,
+      "m": 2,
+      "best_ratio": 1.0364143573334073,
+      "D_pn": 1.0364143573334077
+    },
+    {
+      "p": 1.5,
+      "n": 2,
+      "m": 3,
+      "best_ratio": 1.0364143573334061,
+      "D_pn": 1.0364143573334077
+    },
+    {
+      "p": 1.2,
+      "n": 3,
+      "m": 3,
+      "best_ratio": 1.012710900700375,
+      "D_pn": 1.0127109007004436
+    },
+    {
+      "p": 1.5,
+      "n": 3,
+      "m": 2,
+      "best_ratio": 1.036425091174349,
+      "D_pn": 1.0630863054410675
+    },
+    {
+      "p": 1.2,
+      "n": 3,
+      "m": 2,
+      "best_ratio": 1.007357637563862,
+      "D_pn": 1.0127109007004436
+    }
+  ],
+  "special_value": 1.0364143573334075,
+  "qiu_obstruction": {
+    "p": 1.2,
+    "m": 2,
+    "n": 3,
+    "observed": 1.0073334263993547,
+    "rankone_m2": 1.0073249657678762,
+    "dimension_n3": 1.0127109007004436
+  },
+  "interpolation_comparison": [
+    {
+      "p": 1.2,
+      "m": 2,
+      "D_pm": 1.0073249657678762,
+      "interpolation_bound": 1.0318683259067207,
+      "tang_zhang_bound": 1.0594630943592953
+    },
+    {
+      "p": 1.2,
+      "m": 3,
+      "D_pm": 1.0127109007004436,
+      "interpolation_bound": 1.0533591270785998,
+      "tang_zhang_bound": 1.0958726911352443
+    },
+    {
+      "p": 1.2,
+      "m": 5,
+      "D_pm": 1.0208131839488805,
+      "interpolation_bound": 1.083505882173848,
+      "tang_zhang_bound": 1.1435298360829202
+    },
+    {
+      "p": 1.2,
+      "m": 10,
+      "D_pm": 1.0344150229453974,
+      "interpolation_bound": 1.1299264510703166,
+      "tang_zhang_bound": 1.2115276586285884
+    },
+    {
+      "p": 1.2,
+      "m": 100,
+      "D_pm": 1.1048089911769483,
+      "interpolation_bound": 1.3285985728063354,
+      "tang_zhang_bound": 1.4677992676220695
+    },
+    {
+      "p": 1.5,
+      "m": 2,
+      "D_pm": 1.0364143573334077,
+      "interpolation_bound": 1.0647522420095383,
+      "tang_zhang_bound": 1.122462048309373
+    },
+    {
+      "p": 1.5,
+      "m": 3,
+      "D_pm": 1.0630863054410675,
+      "interpolation_bound": 1.1095654505997896,
+      "tang_zhang_bound": 1.2009369551760027
+    },
+    {
+      "p": 1.5,
+      "m": 5,
+      "D_pm": 1.1030774834887587,
+      "interpolation_bound": 1.1739849967053286,
+      "tang_zhang_bound": 1.3076604860118306
+    },
+    {
+      "p": 1.5,
+      "m": 10,
+      "D_pm": 1.1699522499800745,
+      "interpolation_bound": 1.2767337848283609,
+      "tang_zhang_bound": 1.4677992676220697
+    },
+    {
+      "p": 1.5,
+      "m": 100,
+      "D_pm": 1.5154613346823513,
+      "interpolation_bound": 1.7651741676630317,
+      "tang_zhang_bound": 2.154434690031884
+    },
+    {
+      "p": 1.8,
+      "m": 2,
+      "D_pm": 1.0745288797384525,
+      "interpolation_bound": 1.0872550102260012,
+      "tang_zhang_bound": 1.1665290395761165
+    },
+    {
+      "p": 1.8,
+      "m": 3,
+      "D_pm": 1.1280036998895677,
+      "interpolation_bound": 1.1486928039539614,
+      "tang_zhang_bound": 1.2765180070092417
+    },
+    {
+      "p": 1.8,
+      "m": 5,
+      "D_pm": 1.2070774782976845,
+      "interpolation_bound": 1.2384640249478265,
+      "tang_zhang_bound": 1.4299691483087287
+    },
+    {
+      "p": 1.8,
+      "m": 10,
+      "D_pm": 1.3377217185013257,
+      "interpolation_bound": 1.3850553667321674,
+      "tang_zhang_bound": 1.6681005372000588
+    },
+    {
+      "p": 1.8,
+      "m": 100,
+      "D_pm": 2.016190193471487,
+      "interpolation_bound": 2.1332909168485994,
+      "tang_zhang_bound": 2.7825594022071245
+    }
+  ],
+  "asymptotics": [
+    {
+      "p": 1.2,
+      "d": 100,
+      "x_over_a_pow": 1.8114132897523445,
+      "C_over_asymptotic": 1.342278385307502
+    },
+    {
+      "p": 1.2,
+      "d": 10000,
+      "x_over_a_pow": 1.2978665554292623,
+      "C_over_asymptotic": 1.1444705713556431
+    },
+    {
+      "p": 1.2,
+      "d": 1000000,
+      "x_over_a_pow": 1.1364850679610996,
+      "C_over_asymptotic": 1.0617904330347863
+    },
+    {
+      "p": 1.5,
+      "d": 100,
+      "x_over_a_pow": 1.35117949362762,
+      "C_over_asymptotic": 1.1184733956956896
+    },
+    {
+      "p": 1.5,
+      "d": 10000,
+      "x_over_a_pow": 1.0647381949767816,
+      "C_over_asymptotic": 1.0236720889021282
+    },
+    {
+      "p": 1.5,
+      "d": 1000000,
+      "x_over_a_pow": 1.0134663477713388,
+      "C_over_asymptotic": 1.0050210021846984
+    },
+    {
+      "p": 1.8,
+      "d": 100,
+      "x_over_a_pow": 1.1570186176032826,
+      "C_over_asymptotic": 1.0673230702852303
+    },
+    {
+      "p": 1.8,
+      "d": 10000,
+      "x_over_a_pow": 1.0187423330763468,
+      "C_over_asymptotic": 1.0083831728188952
+    },
+    {
+      "p": 1.8,
+      "d": 1000000,
+      "x_over_a_pow": 1.0023972576126177,
+      "C_over_asymptotic": 1.0010779264995768
+    }
+  ],
+  "numerical_rank_gap_near_2": [
+    {
+      "p": 1.8,
+      "best_ratio": 1.074528880544035,
+      "D_p2": 1.0745288797384525,
+      "difference": 8.05582489604717e-10
+    },
+    {
+      "p": 1.9,
+      "best_ratio": 1.086920830257518,
+      "D_p2": 1.0869208302610909,
+      "difference": -3.5729197378486788e-12
+    }
+  ],
+  "checks": [
+    {
+      "name": "A unique interior maximum p=1.1 d=2",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=2",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.1 d=3",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=3",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.1 d=4",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=4",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.1 d=5",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=5",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.1 d=6",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=6",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.1 d=7",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=7",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.1 d=8",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=8",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.1 d=9",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=9",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.1 d=10",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.1 d=10",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=2",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=2",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=3",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=3",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=4",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=4",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=5",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=5",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=6",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=6",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=7",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=7",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=8",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=8",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=9",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=9",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.2 d=10",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.2 d=10",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=2",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=2",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=3",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=3",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=4",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=4",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=5",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=5",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=6",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=6",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=7",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=7",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=8",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=8",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=9",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=9",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.5 d=10",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.5 d=10",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=2",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=2",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=3",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=3",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=4",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=4",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=5",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=5",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=6",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=6",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=7",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=7",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=8",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=8",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=9",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=9",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.8 d=10",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.8 d=10",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=2",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=2",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=3",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=3",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=4",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=4",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=5",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=5",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=6",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=6",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=7",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=7",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=8",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=8",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=9",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=9",
+      "ok": true
+    },
+    {
+      "name": "A unique interior maximum p=1.95 d=10",
+      "ok": true,
+      "sign_changes": 1
+    },
+    {
+      "name": "A strict increase in d p=1.95 d=10",
+      "ok": true
+    },
+    {
+      "name": "A log D_(p,2) convex in 1/p for p in [1,2]",
+      "ok": true,
+      "min_second_difference": 7.127427592238994e-05
+    },
+    {
+      "name": "A log D_(p,3) convex in 1/p for p in [1,2]",
+      "ok": true,
+      "min_second_difference": 0.00012361111812295904
+    },
+    {
+      "name": "A log D_(p,5) convex in 1/p for p in [1,2]",
+      "ok": true,
+      "min_second_difference": 0.000161443947088169
+    },
+    {
+      "name": "A log D_(p,10) convex in 1/p for p in [1,2]",
+      "ok": true,
+      "min_second_difference": 0.00019003436884323932
+    },
+    {
+      "name": "B equality families attain D_{p,n}",
+      "ok": true,
+      "max_abs_error": 4.440892098500626e-16
+    },
+    {
+      "name": "C random families obey D_{p,rank B}",
+      "ok": true,
+      "trials": 900,
+      "max_fraction": 0.9927282991916201
+    },
+    {
+      "name": "D adversarial never exceeds D_(p,n) p=1.5 n=2 m=2",
+      "ok": true
+    },
+    {
+      "name": "D adversarial reaches D_(p,n) p=1.5 n=2 m=2",
+      "ok": true
+    },
+    {
+      "name": "D adversarial never exceeds D_(p,n) p=1.5 n=2 m=3",
+      "ok": true
+    },
+    {
+      "name": "D adversarial reaches D_(p,n) p=1.5 n=2 m=3",
+      "ok": true
+    },
+    {
+      "name": "D adversarial never exceeds D_(p,n) p=1.2 n=3 m=3",
+      "ok": true
+    },
+    {
+      "name": "D adversarial reaches D_(p,n) p=1.2 n=3 m=3",
+      "ok": true
+    },
+    {
+      "name": "D adversarial never exceeds D_(p,n) p=1.5 n=3 m=2",
+      "ok": true
+    },
+    {
+      "name": "D strictly below D_(p,n) for m<n p=1.5 n=3 m=2",
+      "ok": true
+    },
+    {
+      "name": "D adversarial never exceeds D_(p,n) p=1.2 n=3 m=2",
+      "ok": true
+    },
+    {
+      "name": "D strictly below D_(p,n) for m<n p=1.2 n=3 m=2",
+      "ok": true
+    },
+    {
+      "name": "E radical identity exact",
+      "ok": true
+    },
+    {
+      "name": "E radical equals numerical D_{3/2,2}",
+      "ok": true,
+      "value": 1.0364143573334075
+    },
+    {
+      "name": "E sextic has spurious factor t^2+1",
+      "ok": true
+    },
+    {
+      "name": "F Qiu example between D_{6/5,2} and D_{6/5,3}",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.2 m=2",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.2 m=3",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.2 m=5",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.2 m=10",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.2 m=100",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.5 m=2",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.5 m=3",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.5 m=5",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.5 m=10",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.5 m=100",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.8 m=2",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.8 m=3",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.8 m=5",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.8 m=10",
+      "ok": true
+    },
+    {
+      "name": "G D_(p,m) <= interpolation bound < Tang-Zhang p=1.8 m=100",
+      "ok": true
+    },
+    {
+      "name": "H asymptotic ratio moves toward 1 as d grows",
+      "ok": true
+    },
+    {
+      "name": "N lowered constant is violated",
+      "ok": true
+    },
+    {
+      "name": "N perturbed family loses equality",
+      "ok": true
+    }
+  ],
+  "total_checks": 128,
+  "status": "PASS"
+}

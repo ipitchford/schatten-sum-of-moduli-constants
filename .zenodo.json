@@ -1,0 +1,104 @@
+{
+ "title": "Sharp constants for sums of matrix moduli when 1<p<2",
+ "upload_type": "publication",
+ "publication_type": "preprint",
+ "description": "<p><strong>Unrefereed research candidate.</strong> In one sentence: for 1 &lt; p &lt; 2 this paper finds the exact Schatten-norm constant for sums of matrix moduli when there are at least as many matrices as the matrix size, gives a new general upper bound ((1+&radic;m)/2)<sup>1&minus;1/p</sup>, and certifies in exact arithmetic that rank-one matrices do not give the answer to Lee&rsquo;s two-matrix problem.</p><p><strong>The question.</strong> For numbers, |a+b| &le; |a|+|b|. A matrix A has a natural absolute value |A| = (A*A)<sup>1/2</sup>, but for matrices the size of a sum can exceed the size of the sum of the absolute values. Measuring size by the Schatten p-norm (p = 1 is the trace norm, p = 2 the Frobenius norm), one asks for the smallest constant c with &Vert;A<sub>1</sub>+&hellip;+A<sub>m</sub>&Vert;<sub>p</sub> &le; c&thinsp;&Vert;|A<sub>1</sub>|+&hellip;+|A<sub>m</sub>|&Vert;<sub>p</sub>.</p><p><strong>What was known.</strong> Eun-Young Lee (2010, 2012) asked for the best constant for two matrices. Lin and Zhang (2022) settled p = 2; Tang and Zhang extended the question to m matrices and conjectured a formula; Qiu (2026) proved it for p &ge; 2; below p = 2 the formula fails, by counterexamples of Zeng, Liu and Ratnavelu, of Pang and of Qiu, all built from rank-one matrices. The survey of Bourin and Zhang (2026) lists the range 1 &lt; p &lt; 2 as open.</p><p><strong>Results (1 &lt; p &lt; 2, n-by-n matrices).</strong> (1) When m &ge; n the best constant is an explicit one-variable maximum D<sub>p,n</sub>; it depends only on the rank of the sum of the moduli, every equality case is classified, and for m &lt; n the constant is strictly smaller. Consequently the best constant for rank-one summands is D<sub>p,min(m,n)</sub> in every dimension. (2) The best constant is log-convex in 1/p, so interpolating between p = 1 and p = 2 gives the dimension-free bound ((1+&radic;m)/2)<sup>1&minus;1/p</sup>, better than the previous m<sup>(p&minus;1)/(2p)</sup> for every m &ge; 2 (for two matrices at p = 3/2: 1.0648 instead of 1.1225, while the true value is at least 1.0364). (3) For two 3-by-3 matrices a computer-assisted proof in exact rational and interval arithmetic shows that the best rank-one value is beaten at nine exponents between 11/10 and 17/10.</p><p><strong>How.</strong> The sum is written as a product of two block matrices and H&ouml;lder&rsquo;s inequality is applied; the problem reduces to comparing two R&eacute;nyi entropies of the spectrum, whose extremal shape is one large eigenvalue and the rest equal. This extends T. Zhang&rsquo;s Frobenius-norm argument; the matching examples are Pang&rsquo;s, with a re-tuned parameter.</p><p><strong>Limits.</strong> The exact constant for two matrices of arbitrary size (Lee&rsquo;s problem) for 1 &lt; p &lt; 2 remains open, as does the case m &lt; n; the interpolation bound is not sharp; the certified excess over the rank-one value is tiny (about 10<sup>&minus;5</sup> to 10<sup>&minus;7</sup>) and covers nine specific exponents, not an interval.</p><p><strong>Contents.</strong> The paper (LaTeX source and PDF) with Figure 1; the certificate script certify_rank_gap.py with its exact rational witnesses; verify_schatten.py (128 numerical checks of the scalar constant, equality families, adversarial searches, the bounds table and asymptotics, with negative controls); the figure script; recorded outputs; the bibliography from registry records; a machine-readable index; a research-gate record; a rating-free review summary; a replay receipt and SHA-256 sums.</p><p><strong>Assurance.</strong> Written proofs, except one computer-assisted proof in exact arithmetic (Proposition 2.5). Internal AI-assisted review only (five reviewer roles, an adversarial review and audit by a second AI model, a clean replay, a re-review and a proof audit): not peer review, independent reproduction or formal verification. Creator: Anonymous. Text and data CC0-1.0; code MIT.</p>",
+ "creators": [
+  {
+   "name": "Anonymous"
+  }
+ ],
+ "access_right": "open",
+ "license": "cc-zero",
+ "version": "0.1.0-candidate",
+ "publication_date": "2026-11-15",
+ "keywords": [
+  "Schatten norm",
+  "matrix modulus",
+  "triangle inequality",
+  "Lee's problem",
+  "Tang-Zhang conjecture",
+  "Renyi entropy",
+  "complex interpolation",
+  "computer-assisted proof",
+  "interval arithmetic"
+ ],
+ "notes": "Code (verification/*.py and the CI workflow) is MIT; prose, manuscript, figures and data are CC0-1.0. Subtitle: The square case, an interpolation bound for Lee's problem, and certified failure of rank-one extremisers.",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/ipitchford/schatten-sum-of-moduli-constants/tree/v0.1.0-candidate",
+   "relation": "isSupplementTo",
+   "scheme": "url"
+  },
+  {
+   "identifier": "https://evidencepress.org/releases/schatten-sum-of-moduli-constants/",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  },
+  {
+   "identifier": "10.1142/s0129055x26500236",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.laa.2010.03.029",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.7153/oam-06-42",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.jmaa.2022.126542",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1090/s0002-9947-1956-0082586-0",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.2140/pjm.1976.66.285",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.laa.2025.11.015",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1112/jlms.70672",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "arXiv:2608.25989v1",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2608.18112v1",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2608.17565v2",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:1605.00019",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2608.15558",
+   "relation": "references",
+   "scheme": "arxiv"
+  }
+ ]
+}

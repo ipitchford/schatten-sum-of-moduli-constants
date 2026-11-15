@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using these metadata."
+type: software
+title: "Sharp constants for sums of matrix moduli when 1<p<2"
+abstract: "Unrefereed research candidate. For 1<p<2 and n-by-n matrices: the best Schatten-norm constant c_p(m,n) in ||A_1+...+A_m||_p <= c ||(|A_1|+...+|A_m|)||_p equals an explicit one-variable maximum D_{p,n} when m >= n (equality cases classified, strict for m < n; rank-one summands solved in every dimension); c_p(m) <= ((1+sqrt m)/2)^{1-1/p} by log-convexity in 1/p, improving m^{(p-1)/(2p)}; and a computer-assisted proof in exact arithmetic that two 3x3 matrices beat the rank-one value D_{p,2} at nine exponents between 11/10 and 17/10."
+authors:
+  - name: "Anonymous"
+version: "0.1.0-candidate"
+date-released: "2026-11-15"
+doi: "10.5281/zenodo.24237738"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24237738"
+    description: "This version"
+  - type: doi
+    value: "10.5281/zenodo.24237737"
+    description: "All versions (concept DOI)"
+repository-code: "https://github.com/ipitchford/schatten-sum-of-moduli-constants"
+url: "https://evidencepress.org/releases/schatten-sum-of-moduli-constants/"
+license: CC0-1.0
+keywords:
+  - Schatten norm
+  - matrix modulus
+  - triangle inequality
+  - Lee's problem
+  - Renyi entropy
+  - complex interpolation
+  - computer-assisted proof
+preferred-citation:
+  type: article
+  title: "Sharp constants for sums of matrix moduli when 1<p<2"
+  authors:
+    - name: "Anonymous"
+  year: 2026
+  doi: "10.5281/zenodo.24237738"
+  publisher:
+    name: "Zenodo"
+  notes: "Version 0.1.0-candidate; unrefereed"

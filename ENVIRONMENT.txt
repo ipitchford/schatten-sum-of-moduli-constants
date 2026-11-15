@@ -1,0 +1,27 @@
+Software versions with which the files in verification/output/ and the figure verification/bounds.png were
+reproduced byte for byte before this release was frozen (15 November 2026)
+
+  Platform    macOS 27.2.1, arm64 (Apple silicon), double precision IEEE 754
+  Python      3.12.11 (selected by uv for --python 3.12)
+  numpy       2.3.5
+  scipy       1.17.0
+  sympy       1.14.0
+  mpmath      1.3.0
+  matplotlib  3.10.8   (figure only)
+  pdfTeX      3.141592653-2.6-1.40.29 (TeX Live 2026); manuscript.pdf from manuscript.tex, three pdflatex passes in a
+              directory containing verification/bounds.pdf
+
+Commands (from any directory; SCRIPTDIR is the absolute path of verification/):
+
+  uv run --no-project --python 3.12 --with numpy==2.3.5 --with scipy==1.17.0 --with sympy==1.14.0 \
+      --with mpmath==1.3.0 python3 -I -B SCRIPTDIR/certify_rank_gap.py --out OUTDIR
+  uv run --no-project --python 3.12 --with numpy==2.3.5 --with scipy==1.17.0 --with sympy==1.14.0 \
+      --with mpmath==1.3.0 python3 -I -B SCRIPTDIR/verify_schatten.py --out OUTDIR
+  uv run --no-project --python 3.12 --with numpy==2.3.5 --with scipy==1.17.0 --with sympy==1.14.0 \
+      --with mpmath==1.3.0 --with matplotlib==3.10.8 python3 -I -B SCRIPTDIR/plot_bounds.py --out OUTDIR
+
+certify_rank_gap.py decides every comparison in exact rational and mpmath interval arithmetic; its JSON reports
+decimal strings rounded outward. verify_schatten.py uses a fixed seed (20261112). The PDF version of the figure
+(verification/bounds.pdf) embeds a creation date, so a regenerated copy differs from the shipped one in that metadata
+only; the PNG is byte-identical. Other platforms or library versions may change last digits of floating-point values
+in verification.json; every check has a tolerance and should still pass.
